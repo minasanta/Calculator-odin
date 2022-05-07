@@ -8,35 +8,30 @@
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    <div class="contanier">
-        <div class="reslut">
-            <p></p>
+   <div class="calculator-gird">
+        <div class="output">
+            <div data-prev-operand class="prev-operand"></div>
+            <div data-cur-operand class="cur-operand"></div>
         </div>
-        <div class="one">
-            <button>1</button>
-            <button>2</button>
-            <button>3</button>
-            <button class="op">+</button>
-        </div>
-        <div class="two">
-            <button>4</button>
-            <button>5</button>
-            <button>6</button>
-            <button class="op">-</button>
-        </div>
-        <div class="three">
-            <button>7</button>
-            <button>8</button>
-            <button>9</button>
-            <button class="op">*</button>
-        </div>
-        <div class="four">
-            <button style="background-color: rgb(13, 135, 206); color: white;" id ="clear"> AC </button>
-            <button>.</button>
-            <button class="op" >/</button>
-            <button style="background-color: rgb(36, 206, 13); color: white;" id="equal"> = </button>
-        </div>
-    </div>
+        <button data-clear class="sapn-two">AC</button>
+        <button data-delete>DEL</button>
+        <button data-operation>/</button>
+        <button data-number>1</button>
+        <button data-number>2</button>
+        <button data-number>3</button>
+        <button data-operation>*</button>
+        <button data-number>4</button>
+        <button data-number>5</button>
+        <button data-number>6</button>
+        <button data-operation>+</button>
+        <button data-number>7</button>
+        <button data-number>8</button>
+        <button data-number>9</button>
+        <button data-operation>-</button>
+        <button data-number>.</button>
+        <button data-number>0</button>
+        <button data-equals class="sapn-two">=</button>
+   </div>
     <script src="./script.js"></script>
 </body>
 </html>
